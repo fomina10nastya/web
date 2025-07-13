@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Твой Шоколад</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Твой<span>Шоколад</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Каталог</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О шоколаде</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Твой Шоколад</h1>
+                <p class="hero__subtitle">Для ценителей вкуса</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Каталог</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="images/about.png" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">Шоколад - это кондитерское изделие, получаемое из какао-бобов</h2>
+                        <p class="about__text">Он может быть горьким, молочным или белым, в зависимости от состава и пропорций ингредиентов. Умеренное потребление шоколада может улучшать настроение, снижать стресс и оказывать антиоксидантное действие.</p>
+                        
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <span></span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-check"></i> &nbsp;
+                                <span>Богат антиоксидантами</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-check"></i>&nbsp;
+                                <span>Улучшает настроение и когнитивные функции</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-check"></i>&nbsp;
+                                <span>Улучшает кровообращение.</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-check"></i>&nbsp;
+                                <span>Оказывает антистрессовый эффект. </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Каталог</h2>
+                <div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Dark Chocolate</h3>
+                                <span class="menu-item__price">350 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Богатый вкус какао, хорошо сбалансированный шоколадный вкус и фруктовые нотки.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Milk chocolate</h3>
+                                <span class="menu-item__price">310 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Соблазнительный вкус молочного шоколада со сливочно-карамельными нотками и мощным ядром какао-боба.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">White chocolate</h3>
+                                <span class="menu-item__price">330 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Приятный вкус с ярко выраженными нотами молока, сливок, карамели и ванили, сливающимися в идеальном балансе.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Caramel chocolate</h3>
+                                <span class="menu-item__price">370 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Насыщенный нотами ириса, сливочного масла, сливок и восхитительным солоноватым привкусом.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Ruby chocolate</h3>
+                                <span class="menu-item__price">390 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Красновато-розовый цвет шоколада и приятный сливочно-ягодный вкус</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Vegan chocolate</h3>
+                                <span class="menu-item__price">420 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Имеет более выраженный вкус какао с нотками кокоса.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">В шоколаде отлично чувствуется вкус какао, нет приторности, хороший вкус. Тает во рту, для угощения прекрасно подходит.</p>
+                        <div class="review__author">
+                            <img src="images/avatar1.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Илья</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Очень вкусный шоколад, кусочка вполне достаточно, чтобы перекусить и не мучится совестью.</p>
+                        <div class="review__author">
+                            <img src="images/avatar2.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Карина</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Шоколад просто оболденный! Иногда говорят, что шоколад на любителя, а этот шоколад у нас любят все. Работа у нас рутинная, иногда приходится несладко, но шоколад скрашивает наши будни, пьем и с кофе, и с какао, и с чаем. </p>
+                        <div class="review__author">
+                            <img src="images/avatar3.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Ольга</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>ул. Ленина, 28, Ангарск, Иркутская обл.</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+7(999)876-54-32</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>Email.Chocolate@mail.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>Пн-Пт: 10:00 - 23:00 <br>Сб-Вс: 12:00 - 21:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://t.me/NasRusec" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1020.1668103062782!2d103.88582420703993!3d52.54466435279876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d079d3d94a733cd%3A0xb691ee1b6a9ebfdf!2z0YPQuy4g0JvQtdC90LjQvdCwLCAyOCwg0JDQvdCz0LDRgNGB0LosINCY0YDQutGD0YLRgdC60LDRjyDQvtCx0LsuLCA2NjU4MzA!5e0!3m2!1sru!2sru!4v1752396770675!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Твой<span>Шоколад</span></a>
+                    <p class="footer__text">Для ценителей вкуса</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Каталог</a></li>
+                        <li><a href="#about" class="footer__link">О шоколаде</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright 2025. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
